@@ -1,0 +1,16 @@
+curl 'https://www.seloger.com/search-mfe-bff/autocomplete' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'content-type: application/json' \
+  -b 'g_state={"i_l":0,"i_ll":1773243470407,"i_b":"2P5MRf6ndtLusrji9ZALzQPlyeUiN53V0/VHZUL/sf4","i_e":{"enable_itp_optimization":0}}; _dd_s=aid=d38adddc-6f86-4106-a1b3-7b28af6cef54&logs=0&expire=1773244374334&rum=0' \
+  -H 'origin: https://www.seloger.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.seloger.com/classified-search?distributionTypes=Buy&estateTypes=House,Apartment&locations=AD08FR28808&m=homepage_new_search_classified_search_result' \
+  -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+  --data-raw '{"text":"paris","limit":10,"placeTypes":["NBH1","NBH3","AD09","NBH2","AD08","AD06","AD04","POCO","AD02"],"parentTypes":["NBH1","NBH3","AD09","NBH2","AD08","AD06","AD04","POCO","AD02"],"locale":"fr"}'
